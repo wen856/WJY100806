@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>服务机构页面</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f6f8;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 8px 12px;
+      background: #3498db;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>我们的服务机构</h1>
+  <p>提供专业、高效、可靠的服务</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>机构介绍</h2>
+    <p>我们是一个专注于提供优质服务的机构，致力于帮助用户解决问题。</p>
+  </div>
+
+  <div class="card">
+    <h2>服务内容</h2>
+    <ul>
+      <li>在线咨询服务</li>
+      <li>技术支持服务</li>
+      <li>项目协助服务</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>联系我们</h2>
+    <p>邮箱：example@email.com</p>
+    <p>电话：123-456-789</p>
+    <a class="btn" href="#">立即咨询</a>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 服务机构网站
+</footer>
+
+</body>
+</html>
